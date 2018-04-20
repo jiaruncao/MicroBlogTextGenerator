@@ -12,7 +12,7 @@
   
   
   
-直接运行`generate.py`即可生成微博文本，在`model.py`调整`len_of_generation` 和`start_sentence`可以控制文本输出的长度和开头部分。  
+直接运行`generate.py`即可生成微博文本，在`model.py`调整`len_of_generation` 和`start_sentence`可以控制文本输出的 长度和开头部分。  
   
   
 
