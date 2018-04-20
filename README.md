@@ -8,8 +8,9 @@
 * `model.py`:模型框架
 * `config.py`:保存相关的超参数  
 * `kobe.txt`：训练数据，爬取自新浪微博（keyword = '科比'）
-* `rnn_1000_text.txt`：自动生成的1000条微博数据  
-
+* `rnn_1000_text.txt`：自动生成的1000条微博数据  
+  
+直接运行`generate.py`即可生成微博文本，在`model.py`调整`len_of_generation` 和`start_sentence`可以控制文本输出的长度和开头部分. 
 
 **为了节省训练时间，代码中包含了一个已经训练好的模型：`Model-100.meta`**  
   
